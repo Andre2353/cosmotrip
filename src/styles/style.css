@@ -1,0 +1,65 @@
+@import url(./global.css);
+
+body{
+    background-color: var(--color-black);
+}
+
+header{
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px;
+     background-color: var(--color-black);
+}
+
+.navigation-header{
+    display: flex;
+    gap: 40px;
+    
+}
+
+.navigation-header a{
+    font-family: var(--font-title);
+    color: var(--color-gray);
+}
+.navigation-header .active{
+    color: var(--color-pink);
+    font-weight: bold;
+}
+
+.btn-primary{
+    color: var(--color-white);
+    padding: 10px 24px;
+    border-radius: 10px;
+    font-family: var(--font-title);
+    background-color: var(--color-pink);
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 50px 0px;
+}
+.content-main{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.content-main > span{
+    border: 1px solid var(--color-gray);
+    color: var(--color-pink);
+    align-self: flex-start;
+    padding: 10px 12px;
+}
+.content-main h1{
+    color: var(--color-white);
+    font-family: var(--font-title);
+    font-style: 50px;
+    width: 549px;
+}
+
+.content-main p{
+    color: var(--color-gray);
+}
